@@ -1,7 +1,3 @@
-Here's a description you can use for your GitHub repository:
-
----
-
 # Document-Based Chatbot with FastAPI and DeepSeek-R1
 
 This is a simple **document-based chatbot** built using **FastAPI**. It allows users to upload documents (PDF, DOCX, or TXT) and ask questions based on the document's content. The chatbot leverages the **DeepSeek-R1 (1.5B)** model via **Ollama** to generate responses.
@@ -60,12 +56,3 @@ data = {"message": "What is this document about?"}
 response = requests.post(url, json=data)
 print(response.json())  # {"response": "This document discusses..."}
 ```
-
-## Future Enhancements
-- Support for more file types (CSV, JSON).
-- Advanced retrieval methods (vector search, embeddings).
-- Improved UI for a better chat experience.
-
----
-
-You can tweak this based on your needs! 🚀
