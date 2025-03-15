@@ -1,4 +1,4 @@
-# Document-Based Chatbot with FastAPI and DeepSeek-R1
+# Document-Based Chatbot with DeepSeek-R1
 
 This is a simple **document-based chatbot** built using **FastAPI**. It allows users to upload documents (PDF, DOCX, or TXT) and ask questions based on the document's content. The chatbot leverages the **DeepSeek-R1 (1.5B)** model via **Ollama** to generate responses.
 
